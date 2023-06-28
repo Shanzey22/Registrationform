@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title>
+Student Registration Form
+        </title>
+    </head>
+    <body bgcolor="lightskyblue">
+        <br>
+        <br>
+        <h1><b> Basic Information <font size="34"></font size></b></h1>
+            <p>Fill out the form to apply for the courses.You can consider your application accepted afteryou receive a confirmation email.</p><br><br>
+<form><h1><b>Student Information</b></h1>
+    <label>Fullname:</label>
+    <input type="text" name="firstname"  placeholder="Enter your firstname" size="15"/>
+    <input type="text" name="middlename" placeholder="Enter your middlename" size="15">
+    <input type="text" name="lastname" placeholder="Enter your lastname"size="15"><br><br>
+
+    Date of birth:
+    <input type="date" /> <br>
+    <label>Gender:</label><br>
+    <input type="radio" name="male"/>Male<br>
+    <input type="radio" name="female"/>Female<br>
+    <input type="radio" name="other"/>Other<br><br>
+    <h1><b>Course Information</b></h1>
+    <label>Year Level</label>
+    <select>
+        <option value="Please select">Please select:</option>
+        <option value="1st year">1st Year</option>
+        <option value="2nt year">2nt Year</option>
+        <option value="3rd year">3rd Year</option>
+        <option value="4th year">4th Year</option>
+    </select><br><br>
+    <label>Course:</label>
+    <select>
+        <option value="Course">Course:</option>
+        <option value="BCA">BCA</option>
+        <option value="BBA">BBA</option>
+        <option value="BCS" >BCS</option>
+        <option value="B.E">B.E</option>
+        <option value="B PHARM">B PHARM</option>
+        <option value="B.TECH">B.TECH</option>
+        <option value="MBA">MBA</option>
+        <option value="MCA">MCA</option>
+        <option value="M.E">M.E</option>
+        <option value="M.PHARM">M.PHARM</option>
+        <option value="M.TECH">M.TECH</option>
+    </select><br><br>
+    <label>Department (Engg)</label>
+    <select>
+        <option value="Please select">Please select:</option>
+        <option value="Computer">Computer</option>
+        <option value="E and C">E and C</option>
+        <option value="Mechanical">Mechanical</option>
+        <option value="Civil">Civil</option>
+        <option value="IT">IT</option>
+    </select><br><br>
+   <h1><b>Address Information</b></h1>
+    <label>Address:</label>
+    <br>
+    <textarea cols="50" rows="3" value="address" placeholder="Enter your address"></textarea>
+    <br><br>
+    City:
+    <input type="text" name="city"/>
+    State:
+    <input type="text" name="state"/><br><br>
+    Country:
+    <input type="text" name="country"/>
+    Zip code
+   <input type="code" name="zip code"/> <br><br>
+    
+   <h1><b>Contact Information</b></h1><br>
+   Phone:
+    <input type="text" name="country code" value="+91" size="2" />
+    <input type="text" name="phone" size="10" /><br><br>
+    
+    <label>Email:</label>
+    <input type="email" id="email" name="email" required/><br>
+    <br><br>
+    <h1><b>Password</b></h1>
+   <label>Password:</label>
+    <input type="password" id="pass" name="pass" required/><br>
+    <br><br>
+    <label>Re-type Password:</label>
+    <input type="Password" id="repass" name="repass" required/><br><br>
+    <h1><b1>Documents</b1></h1>
+    <label for="fileInput">10th Marksheet:</label>
+    <input type="file" id="fileInput" accept="application/pdf" /><br><br>
+    <label for="fileInput">12th Marksheet:</label>
+    <input type="file" id="fileInput" accept="application/pdf" /><br><br>
+    <label for="fileInput"> MHTCET(PCM) Marksheet:</label>
+    <input type="file" id="fileInput" accept="application/pdf" /><br><br>
+    <label for="fileInput"> MHTCET(PCB) Marksheet:</label>
+    <input type="file" id="fileInput" accept="application/pdf" /><br><br>
+    <label for="fileInput"> JEE Marksheet:</label>
+    <input type="file" id="fileInput" accept="application/pdf" /><br><br>
+    <label for="fileInput"> 1st/2nd/3rd/4th Marksheet:</label>
+    <input type="file" id="fileInput" accept="application/pdf" /><br><br>
+    <h1><b>Filling form</b></h1>
+    <label>Date :</label>
+    <input type="date" /><br><br>
+   <label>Time:</label>
+    <input type="time" /><br><br>
+    <input type="button" value="Print Form"/>
+    <input type="button" value="Submit" /><br><br>
+    <input type="button" value="Clear Form"/>
+
+ </form>
+    </body>
+</html>
